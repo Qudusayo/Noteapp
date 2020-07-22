@@ -8,7 +8,7 @@
     "install": "npm install",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "postbuild": "cd client && npm install && npm run build"
+    "postbuild": "cd client && npm install"
   },
   "author": "Qudusayo",
   "license": "MIT",
