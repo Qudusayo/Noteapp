@@ -1,0 +1,10 @@
+export const NEW_USER = 'NEW_USER';
+export const GET_USER = 'GET_USER';
+export const REAL_USER = 'REAL_USER';
+export const CHECK_USER = 'CHECK_USER';
+export const FETCH_USERS = 'FETCH_USERS';
+export const FETCH_NOTES = 'FETCH_NOTES';
+export const FETCH_NOTE = 'FETCH_NOTE';
+export const NEW_NOTE = 'NEW_NOTE';
+export const EDIT_NOTE = 'EDIT_NOTE';
+export const DELETE_NOTE = 'DELETE_NOTE';

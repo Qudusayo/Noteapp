@@ -1,0 +1,23 @@
+{
+  "name": "noteapp",
+  "version": "1.0.0",
+  "description": "note App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "install": "npm install",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "Qudusayo",
+  "license": "MIT",
+  "dependencies": {
+    "@sweetalert/with-react": "^0.1.1",
+    "concurrently": "^5.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19",
+    "mysql": "^2.18.1",
+    "sweetalert": "^2.1.2"
+  }
+}
